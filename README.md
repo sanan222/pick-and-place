@@ -8,7 +8,6 @@ To execute the code, follow these steps:
 ### Terminal 1
 
 ```bash
-cd comp0250_s25_labs
 catkin clean
 catkin build
 source devel/setup.bash
@@ -65,12 +64,3 @@ Due to inverse kinematics and the RRT Connect algorithm in the MoveIt! library, 
 
 ### Task 3 Issues
 - Using three scanning coordinates may sometimes cause the path planning to fail after several attempts, which stops the code. Restarting the code usually resolves this issue.
-
-
-# Team
-Group 9:
-Sanan Garayev*
-Enis Yalcin*
-Ceren Doner*
-
-*Equal contributions with more than 80 hours spent for 5 days
