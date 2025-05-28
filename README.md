@@ -1,5 +1,6 @@
-# COMP0250 Group 9: Coursework 2
+Pick and Place Simulation for Franka Manipulator
 
+This project involves the application of pick and place logic for Franka manipulators in three different test scenarios. The scenarios and developed algorithms are shown below. Notably, the scenario generator is written as a Python script, while all the manipulator codes are written in C++ using MoveIt library.
 
 ## Running the Code
 
@@ -22,7 +23,8 @@ rosservice call /task 1
 
 ## Algorithmic Structure
 
-### Task 1: Pick-and-Place Strategy
+### Scenario 1: Pick-and-Place Strategy
+This scenario aims to apply a pick-and-place algorithm when only one object and one basket with known shapes are given. The shape information is read listening to the world generator.
 
 1. Configure MoveIt! and set a fixed end-effector orientation.
 2. Open the gripper and retrieve the object pose with a height offset.
