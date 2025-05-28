@@ -76,9 +76,9 @@ T2_SHAPE_Y_LIMS = [-0.40, 0.40]          # yrange a shape can spawn
 T2_N_REF_SHAPES = 2                      # number of baskets to spawn
 T2_OBJECT_REF_POINTS = [(-0.43, -0.4), 
                         (-0.43,  0.4)]
-T2_ANY_ORIENTATION = False               # do we allow any rotation of a shape
+T2_ANY_ORIENTATION = True               # do we allow any rotation of a shape
 T2_GROUND_PLANE_NOISE = 0e-3             # do we add noise on the z height of the green tiles
-T2_USE_MULTIPLE_SIZES = False            # do we spawn objects with varying sizes
+T2_USE_MULTIPLE_SIZES = True            # do we spawn objects with varying sizes
 
 # task 3 parameters
 T3_MAX_SHAPES = 7                        # maximum number of spawned shapes
@@ -96,6 +96,7 @@ BASKET_LOCATIONS = [(-0.41, -0.36),
 # define the variety of spawned objects, these values are defined in .sdf files
 POSSIBLE_SHAPES = ["nought", "cross"]
 POSSIBLE_SIZES = ["40", "30", "20"]
+# POSSIBLE_SIZES = ["20"]
 POSSIBLE_COLOURS = {'purple': [0.8, 0.1, 0.8],
                     'red':    [0.8, 0.1, 0.1], 
                     'blue':   [0.1, 0.1, 0.8]}

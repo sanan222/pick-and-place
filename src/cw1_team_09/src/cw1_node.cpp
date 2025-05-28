@@ -10,8 +10,20 @@ int main(int argc, char **argv){
   ros::init(argc,argv, "cw1_solution_node");
   ros::NodeHandle nh;
 
+  // MoveIt! requirement for non-blocking group.move()
+  ros::AsyncSpinner spinner(1);
+  spinner.start();
+
+
   // create an instance of the cw1 class
   cw1 cw_class(nh);
+
+  // // Create a ROS subscriber for the input point cloud
+  // ros::Subscriber sub_cloud =
+  //   nh.subscribe ("/r200/camera/depth_registered/points",
+  //                 1,
+  //                 &cw1::cloudCallBackOne,
+  //                 &cw_class);
 
   ros::Rate loop_rate(10);
 
