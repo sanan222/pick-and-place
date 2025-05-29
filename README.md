@@ -206,6 +206,18 @@ Steps:
 
 ---
 
+### Visual Examples
+
+#### Examples from Scenario 3
+
+![Project A Scenario 3](images/panda_default.png)
+
+![Orientation Detection](images/panda_place_blue.png)
+
+![Cluster Mapping](images/panda_place_purple.png)
+
+---
+
 ### RViz Configuration
 
 To visualize the system:
