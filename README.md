@@ -205,17 +205,27 @@ Steps:
 13. Return the count of all shapes and the number of the most frequent type in the service response.
 
 ---
-
 ### Visual Examples
 
-#### Examples from Scenario 3
+#### Scenario 3: Colour-Matched Sorting Results
 
-![Project A Scenario 3](images/panda_default.png)
-
-![Orientation Detection](images/panda_place_blue.png)
-
-![Cluster Mapping](images/panda_place_purple.png)
-
+<div style="display: flex; gap: 10px;">
+  <div style="text-align: center;">
+    <img src="images/panda_default.png" alt="Initial Scene Overview" width="250"/>
+    <br/>
+    <sub>Initial Scene Overview</sub>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/panda_place_blue.png" alt="Placing Blue Object" width="250"/>
+    <br/>
+    <sub>Placing Blue Object</sub>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/panda_place_purple.png" alt="Placing Purple Object" width="250"/>
+    <br/>
+    <sub>Placing Purple Object</sub>
+  </div>
+</div>
 ---
 
 ### RViz Configuration
