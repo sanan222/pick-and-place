@@ -32,7 +32,8 @@ This scenario aims to apply a pick-and-place algorithm when only one object and 
 4. Define the basket pose and approach it with an upward offset of 30 cm.
 5. Move to the basket and release the object by opening the gripper.
 
-### Task 2: Basket Color Detection
+### Scenario 2: Basket Color Detection
+This scenario aims to use PIL library functions to detect the color of the baskets and return a list of strings.
 
 1. Set up MoveIt! with conservative settings and define a fixed orientation for the initial movement.
 2. Collect and prepare basket location data by converting from the camera frame to the world frame.
@@ -41,7 +42,8 @@ This scenario aims to apply a pick-and-place algorithm when only one object and 
 5. For movement-based error handling, after scanning each subarea, move the robot back to its predefined home position before continuing to check the remaining subareas.
 6. Return a list of color names in the order of the subarea locations visited by the robot.
 
-### Task 3: Enhanced Area Scanning & Pick-and-Place
+### Scenario 3: Enhanced Area Scanning & Pick-and-Place
+This scenario aims to pick the objects and put them into the baskets with same color. The main limitation is that the exact locations of the objects and baskets are unknown. 
 
 1. Clear the transform buffer, retrieve the robot's home pose, and set the planning parameters.
 2. Define a central scanning position, as well as positions 20 cm to the left and 20 cm to the right, to cover the entire area.
@@ -57,12 +59,12 @@ This scenario aims to apply a pick-and-place algorithm when only one object and 
 
 Due to inverse kinematics and the RRT Connect algorithm in the MoveIt! library, timing and planning errors may occur. However, the Panda robot arm typically finds a valid plan on subsequent trials.
 
-### Task 1 Issues
+### Scenario 1 Issues
 - Only planning issues may occur. If the robot fails to move to the desired location (although it generally moves without any problems), restart the code and try again.
 
-### Task 2 Issues
+### Scenario 2 Issues
 - Similar planning issues as mentioned above.
 - On stable machines (e.g., dual-boot or virtual machines), Task 2 works almost perfectly. On PCs with an external SSD, lower FPS may affect performance, sometimes resulting in incomplete point cloud data on the first attempt.
 
-### Task 3 Issues
+### Scenario 3 Issues
 - Using three scanning coordinates may sometimes cause the path planning to fail after several attempts, which stops the code. Restarting the code usually resolves this issue.
