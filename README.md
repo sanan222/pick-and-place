@@ -117,7 +117,7 @@ Steps:
 
 | Initial Scene | Placing Blue Object | Placing Purple Object |
 |---------------|---------------------|------------------------|
-| <img src="images/panda_default.png" width="200"/> | <img src="images/panda_place_blue.png" width="200"/> | <img src="images/panda_place_purple.png" width="200"/> |
+| <img src="images/panda_default.png" width="300"/> | <img src="images/panda_place_blue.png" width="300"/> | <img src="images/panda_place_purple.png" width="300"/> |
 
 
 ### Known Issues and Troubleshooting
@@ -216,7 +216,7 @@ Steps:
 
 | Workplace Area Mapping | Picking Frame Object | Placing Frame Object |
 |---------------|---------------------|------------------------|
-| <img src="images/panda_area_mapping.png" width="300"/> | <img src="images/panda_place_frame.png" width="300"/> | <img src="images/panda_place_purple_2.png" width="300"/> |
+| <img src="images/panda_area_mapping.jpeg" width="300"/> | <img src="images/panda_place_frame.png" width="300"/> | <img src="images/panda_place_purple_2.png" width="300"/> |
 
 ---
 
@@ -224,7 +224,7 @@ Steps:
 
 To visualize the system:
 - Load the provided config:  
-  `comp0250_s25_labs/src/panda_description/rviz/v1.rviz`
+  `v1.rviz`
 - Ensure the following topic is active in RViz:  
   `/r200/camera/depth_registered/points`
 
