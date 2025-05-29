@@ -115,7 +115,7 @@ Steps:
 
 ### Visual Examples
 
-| Initial Scene | Placing Blue Object | Placing Purple Object |
+| Task Completion | Placing Blue Object | Placing Purple Object |
 |---------------|---------------------|------------------------|
 | <img src="images/panda_default.png" width="300"/> | <img src="images/panda_place_blue.png" width="300"/> | <img src="images/panda_place_purple.png" width="300"/> |
 
@@ -216,7 +216,7 @@ Steps:
 
 | Workplace Area Mapping | Picking Frame Object | Placing Frame Object |
 |---------------|---------------------|------------------------|
-| <img src="images/panda_area_mapping.jpeg" width="300"/> | <img src="images/panda_place_frame.png" width="300"/> | <img src="images/panda_place_purple_2.png" width="300"/> |
+| <img src="images/panda_area_mapping.jpeg" width="200" height="400"/> | <img src="images/panda_place_frame.png" width="200" height="400"/> | <img src="images/panda_place_purple_2.png" width="200" height="400"/> |
 
 ---
 
