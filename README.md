@@ -216,7 +216,7 @@ Steps:
 
 | Workplace Area Mapping | Picking Frame Object | Placing Frame Object |
 |---------------|---------------------|------------------------|
-| <img src="images/panda_area_mapping.jpeg" width="200" height="400"/> | <img src="images/panda_place_frame.png" width="200" height="400"/> | <img src="images/panda_place_purple_2.png" width="200" height="400"/> |
+| <img src="images/panda_area_mapping.jpeg" width="400" height="200"/> | <img src="images/panda_place_frame.png" width="400" height="200"/> | <img src="images/panda_place_purple_2.png" width="400" height="200"/> |
 
 ---
 
