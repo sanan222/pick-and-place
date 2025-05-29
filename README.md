@@ -209,23 +209,12 @@ Steps:
 
 #### Scenario 3: Colour-Matched Sorting Results
 
-<div style="display: flex; gap: 10px;">
-  <div style="text-align: center;">
-    <img src="images/panda_default.png" alt="Initial Scene Overview" width="250"/>
-    <br/>
-    <sub>Initial Scene Overview</sub>
-  </div>
-  <div style="text-align: center;">
-    <img src="images/panda_place_blue.png" alt="Placing Blue Object" width="250"/>
-    <br/>
-    <sub>Placing Blue Object</sub>
-  </div>
-  <div style="text-align: center;">
-    <img src="images/panda_place_purple.png" alt="Placing Purple Object" width="250"/>
-    <br/>
-    <sub>Placing Purple Object</sub>
-  </div>
-</div>
+### Visual Examples
+
+| Initial Scene | Placing Blue Object | Placing Purple Object |
+|---------------|---------------------|------------------------|
+| <img src="images/panda_default.png" width="200"/> | <img src="images/panda_place_blue.png" width="200"/> | <img src="images/panda_place_purple.png" width="200"/> |
+
 ---
 
 ### RViz Configuration
