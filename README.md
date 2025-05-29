@@ -113,6 +113,13 @@ Steps:
 
 ---
 
+### Visual Examples
+
+| Initial Scene | Placing Blue Object | Placing Purple Object |
+|---------------|---------------------|------------------------|
+| <img src="images/panda_default.png" width="200"/> | <img src="images/panda_place_blue.png" width="200"/> | <img src="images/panda_place_purple.png" width="200"/> |
+
+
 ### Known Issues and Troubleshooting
 
 #### Scenario 1
@@ -207,13 +214,9 @@ Steps:
 ---
 ### Visual Examples
 
-#### Scenario 3: Colour-Matched Sorting Results
-
-### Visual Examples
-
-| Initial Scene | Placing Blue Object | Placing Purple Object |
+| Workplace Area Mapping | Picking Frame Object | Placing Frame Object |
 |---------------|---------------------|------------------------|
-| <img src="images/panda_default.png" width="200"/> | <img src="images/panda_place_blue.png" width="200"/> | <img src="images/panda_place_purple.png" width="200"/> |
+| <img src="images/panda_area_mapping.png" width="300"/> | <img src="images/panda_place_frame.png" width="300"/> | <img src="images/panda_place_purple_2.png" width="300"/> |
 
 ---
 
