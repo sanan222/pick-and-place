@@ -1,6 +1,6 @@
-Pick and Place Simulation for Franka Manipulator
+# Pick and Place Simulation for Panda Robot Arm
 
-This project involves the application of pick and place logic for Franka manipulators in three different test scenarios. The scenarios and developed algorithms are shown below. Notably, the scenario generator is written as a Python script, while all the manipulator codes are written in C++ using MoveIt library.
+This project involves the application of pick and place logic for Panda manipulators in three different test scenarios. The scenarios and developed algorithms are shown below. Notably, the scenario generator is written as a Python script, while all the manipulator codes are written in C++ using MoveIt library.
 
 ## Running the Code
 
