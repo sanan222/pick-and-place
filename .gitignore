@@ -7,3 +7,4 @@ logs
 .catkin_tools/
 .catkin_tools
 .vscode
+src/cw2_world_spawner/
