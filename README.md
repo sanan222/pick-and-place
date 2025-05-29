@@ -29,8 +29,7 @@ comp0250_s25_labs/
    source devel/setup.bash
    ```
 
-3. Install OpenCV following the official [documentation] (https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html)
-
+3. Install OpenCV following the official <a href="[https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html]" target="_blank">documentation</a>.
 ---
 
 ## Project A — **Cubic Manipulation and Colour Sorting**  
